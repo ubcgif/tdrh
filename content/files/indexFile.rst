@@ -6,18 +6,18 @@ Survey Index File
 This file is input when forward modeling data. Using 4 columns, the observation file indexes the transmitters, receivers and time channels used for each measurement. Each row defines a unique field measurement. The general format is as follows:
 
 
-| :ref:`tx_ind<tdoctree_survey_ln1>` :math:`\;` :ref:`rx_ind<tdoctree_survey_ln2>` :math:`\;` :ref:`t_ind<tdoctree_survey_ln3>` :math:`\;` :ref:`data_opt<tdoctree_survey_ln4>`
-| :ref:`tx_ind<tdoctree_survey_ln1>` :math:`\;` :ref:`rx_ind<tdoctree_survey_ln2>` :math:`\;` :ref:`t_ind<tdoctree_survey_ln3>` :math:`\;` :ref:`data_opt<tdoctree_survey_ln4>`
-| :ref:`tx_ind<tdoctree_survey_ln1>` :math:`\;` :ref:`rx_ind<tdoctree_survey_ln2>` :math:`\;` :ref:`t_ind<tdoctree_survey_ln3>` :math:`\;` :ref:`data_opt<tdoctree_survey_ln4>`
+| :ref:`tx_ind<tdrh_survey_ln1>` :math:`\;` :ref:`rx_ind<tdrh_survey_ln2>` :math:`\;` :ref:`t_ind<tdrh_survey_ln3>` :math:`\;` :ref:`data_opt<tdrh_survey_ln4>`
+| :ref:`tx_ind<tdrh_survey_ln1>` :math:`\;` :ref:`rx_ind<tdrh_survey_ln2>` :math:`\;` :ref:`t_ind<tdrh_survey_ln3>` :math:`\;` :ref:`data_opt<tdrh_survey_ln4>`
+| :ref:`tx_ind<tdrh_survey_ln1>` :math:`\;` :ref:`rx_ind<tdrh_survey_ln2>` :math:`\;` :ref:`t_ind<tdrh_survey_ln3>` :math:`\;` :ref:`data_opt<tdrh_survey_ln4>`
 | :math:`\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\;\; \vdots`
-| :ref:`tx_ind<tdoctree_survey_ln1>` :math:`\;` :ref:`rx_ind<tdoctree_survey_ln2>` :math:`\;` :ref:`t_ind<tdoctree_survey_ln3>` :math:`\;` :ref:`data_opt<tdoctree_survey_ln4>`
+| :ref:`tx_ind<tdrh_survey_ln1>` :math:`\;` :ref:`rx_ind<tdrh_survey_ln2>` :math:`\;` :ref:`t_ind<tdrh_survey_ln3>` :math:`\;` :ref:`data_opt<tdrh_survey_ln4>`
 |
 |
 |
 
 
 
-Click here to `see an example file <https://github.com/ubcgif/tdoctree/raw/tdoctree_v2/assets/supporting_files/indFile.txt>`__ for an airborne TEM survey.
+Click here to `see an example file <https://github.com/ubcgif/tdrh/raw/tdrh_v2/assets/supporting_files/indFile.txt>`__ for an airborne TEM survey.
 
 .. important:: Due to the way the forward problem is solved, it is imperative that the user sort the observations:
 
@@ -29,19 +29,19 @@ Click here to `see an example file <https://github.com/ubcgif/tdoctree/raw/tdoct
 **Parameter Descriptions**
 
 
-.. _tdoctree_survey_ln1:
+.. _tdrh_survey_ln1:
 
     - **tx_ind:** The index corresponding to the desired transmitter within the :ref:`transmitter file<receiverFile>`. 
 
-.. _tdoctree_survey_ln2:
+.. _tdrh_survey_ln2:
 
     - **rx_ind:** The index corresponding to the desired receiver within the :ref:`receiver file<receiverFile>`.
 
-.. _tdoctree_survey_ln3:
+.. _tdrh_survey_ln3:
 
     - **t_ind:** The index corresponding to the desired time within the :ref:`time channel file<timeFile>`.
 
-.. _tdoctree_survey_ln4:
+.. _tdrh_survey_ln4:
 
     - **data_opt:**
 

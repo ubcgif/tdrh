@@ -3,12 +3,12 @@
 Package overview
 ================
 
-.. important:: TDoctree version 2 performs forward modeling and inversion with the executable **tdoctree_v2.exe**. Past iterations of this code may have been given the name 'tdinvInt16.exe'. To use this code, ensure you have downloaded 'tdoctree_v2.exe' and all related files from the UBC-GIF website.
+.. important:: In the spring of 2023, a new TDEM OcTree code (TDRH v2) was compiled. The TDRH v2 code uses a universally right-handed coordinate system; as opposed to the modified left-handed coordinate system used by `TDoctree v2 <https://tdoctree.readthedocs.io/en/tdoctree_v2/>`__. TDRH v2 is also capable of modeling the secondary field, which is useful when data are collected during the on-time (e.g. UTEM).
 
 Description
 -----------
 
-This manual provides instruction and background for the **TDoctree version 2** program library for the forward
+This manual provides instruction and background for the **TDRH version 2** program library for the forward
 modelling and inversion of time domain electromagnetic survey data. In order to decrease
 computational time and increase accuracy by mesh refinement in areas of interest, conductivity models
 are discretized on an Octree mesh.  
@@ -57,10 +57,10 @@ Noranda Exploration, Placer Dome, and WMC.
 Program Library Content
 -----------------------
 
-The main executable programs within the TDoctree version 2 program library are:
+The main executable programs within the TDRH version 2 program library are:
 
     - **create_octree_mesh_td_v2:** creates an OcTree mesh based on the survey geometry
-    - **tdoctree_v2:** used to forward model and inverted TEM data
+    - **tdrh_v2:** used to forward model and inverted TEM data
 
 Also included are the following Octree utility programs:
 
@@ -77,8 +77,8 @@ Details are in the `Licensing policy document <http://gif.eos.ubc.ca/software/li
 Installing TDoctree
 -------------------
 
-TDoctree Executables
-^^^^^^^^^^^^^^^^^^^^
+TDRH v2 Executables
+^^^^^^^^^^^^^^^^^^^
 
 There is no automatic installer currently available for TDoctree version 2. Please follow the following steps in
 order to use the software:

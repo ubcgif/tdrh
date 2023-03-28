@@ -1,11 +1,17 @@
 .. _theory:
 
+.. important:: In the spring of 2023, a new TDEM OcTree code (TDRH v2) was compiled. The TDRH v2 code uses a universally right-handed coordinate system; as opposed to the modified left-handed coordinate system used by `TDoctree v2 <https://tdoctree.readthedocs.io/en/tdoctree_v2/>`__. TDRH v2 is also capable of modeling the secondary field, which is useful when data are collected during the on-time (e.g. UTEM).
+
 Background Theory
 =================
 
 This section aims to provide the user with a basic review of the physics, discretization, and optimization
 techniques used to solve the time domain electromagnetics problem. It is assumed
 that the user has some background in these areas. For further reading see :cite:`Nabighian1991`.
+
+.. important::
+
+    This code uses an X = Easting, Y = Northing, Z +ve upward coordinate system; i.e. right-handed.
 
 .. _theory_fundamentals:
 

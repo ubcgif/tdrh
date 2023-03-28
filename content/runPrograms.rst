@@ -3,7 +3,7 @@
 Running the programs
 ====================
 
-This section provides describes how to run all executables pertaining to the TDoctree package.
+This section provides describes how to run all executables pertaining to the TDRH v2 package.
 
 .. note::
 
@@ -18,7 +18,7 @@ This section provides describes how to run all executables pertaining to the TDo
 The main executable programs within the TDoctree version 1 program library are:
 
     - **create_octree_mesh_td_v2:** creates an OcTree mesh based on the survey geometry
-    - **tdoctree_v2:** used to forward model or invert TEM data
+    - **tdrh_v2:** used to forward model or invert TEM data
 
 Also included are the following Octree utility programs:
 

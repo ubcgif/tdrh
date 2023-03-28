@@ -1,11 +1,11 @@
 
 
-TDoctree Version 2 Package
-==========================
+TDRH Version 2 Package
+======================
 
-.. important:: TDoctree version 2 performs forward modeling and inversion with the executable **tdoctree_v2.exe**. Past iterations of this code may have been given the name 'tdinvInt16.exe'. To use this code, ensure you have downloaded 'tdoctree_v2.exe' and all related files from the UBC-GIF website.
+.. important:: In the spring of 2023, a new TDEM OcTree code (TDRH v2) was compiled. The TDRH v2 code uses a universally right-handed coordinate system; as opposed to the modified left-handed coordinate system used by `TDoctree v2 <https://tdoctree.readthedocs.io/en/tdoctree_v2/>`__. TDRH v2 is also capable of modeling the secondary field, which is useful when data are collected during the on-time (e.g. UTEM).
 
-TDoctree version 2 is a program library for carrying out forward modelling and inversion of time domain EM data over 3D structures. The contents of this manual are as follows:
+TDRH version 2 is a program library for carrying out forward modelling and inversion of time domain EM data over 3D structures. The contents of this manual are as follows:
 
 .. toctree::
     :numbered:

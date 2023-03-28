@@ -3,7 +3,7 @@
 Wave File
 =========
 
-The wave file defines the time-dependent current in the transmitter during both the on-time and off-time, as well as the time-stepping that is used to solve the time-dependent Maxwell system. Unlike past generations of tdoctree, the tdoctree_v2 code allows the user to define a different waveform for each source. However, the time-stepping is consistent regardless of the source.
+The wave file defines the time-dependent current in the transmitter during both the on-time and off-time, as well as the time-stepping that is used to solve the time-dependent Maxwell system. The *tdrh_v2* code allows the user to define a different waveform for each source. However, the time-stepping is consistent regardless of the source.
 
 .. important::
 
