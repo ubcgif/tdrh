@@ -1,4 +1,4 @@
-.. _tdoctree_input_model:
+.. _tdrh_input_model:
 
 Create Model Input File
 =======================
@@ -33,7 +33,7 @@ where superscript :math:`(i)` for :math:`i=1,2,...,N` refers to a particular blo
      :align: center
      :width: 700
 
-     Example input file for creating octree model (`Download <https://github.com/ubcgif/tdoctree/raw/tdoctree/assets/input_files/blk3cellOct.inp>`__ )
+     Example input file for creating octree model (`Download <https://github.com/ubcgif/tdrh/raw/tdrh_v2/assets/input_files/blk3cellOct.inp>`__ )
 
 
 
