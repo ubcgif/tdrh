@@ -1,16 +1,16 @@
-.. _tdoctree_inv:
+.. _tdrh_inv:
 
 Inversion Program
 =================
 
-Both the forward and inverse problems are solved using the **tdoctree_v2.exe** executable program. In each case, format of the :ref:`input file<tdoctree_input_inv>` (denoted here as **tdoctree.inp**) is the same. In the case of forward modeling however, some lines in the input file are omitted.
+Both the forward and inverse problems are solved using the **tdrh_v2.exe** executable program. In each case, format of the :ref:`input file<tdrh_input_inv>` (denoted here as **tdrh.inp**) is the same. In the case of forward modeling however, some lines in the input file are omitted.
 
 Running the Program
 ^^^^^^^^^^^^^^^^^^^
 
 Unlike some other UBC-GIF programs, the *mpiexec* call **cannot** be used to parallelize multiple processes (large-scale independent operations) within the code. To run the executable, open a command window and type the following:
 
-.. figure:: images/run_tdoctree.png
+.. figure:: images/run_tdrh.png
      :align: center
      :width: 500
 
@@ -44,7 +44,7 @@ Units
 Output Files
 ^^^^^^^^^^^^
 
-The program **TDoctreeinv.exe** creates the following output files:
+The program **tdrhinv.exe** creates the following output files:
 
     - **dpred0.txt** data predicted using the starting model or forward model
 
@@ -54,9 +54,9 @@ The program **TDoctreeinv.exe** creates the following output files:
 
     - **inv.con:** final conductivity model
 
-    - **tdoctree_v2.log:** log file for the inversion
+    - **tdrh_v2.log:** log file for the inversion
 
-    - **tdoctree_v2.out:** stores details regarding the inversion
+    - **tdrh_v2.out:** stores details regarding the inversion
 
 
 

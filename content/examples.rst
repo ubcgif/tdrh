@@ -3,7 +3,7 @@
 Examples
 ========
 
-Here, the program libraries for tdoctree v2 will be used to:
+Here, the program libraries for tdrh v2 will be used to:
 
     - create an Octree mesh based on the survey
     - create octree models
@@ -12,7 +12,7 @@ Here, the program libraries for tdoctree v2 will be used to:
 
 Zip folders containing all necessary files can be downloaded here:
 
-	- `Files for example using TDoctree version 2 <https://github.com/ubcgif/tdoctree/raw/tdoctree_v2/assets/tdoctree_v2_example.zip>`__
+	- `Files for example using tdrh version 2 <https://github.com/ubcgif/tdrh/raw/tdrh_v2/assets/tdrh_v2_example.zip>`__
 
 The full examples are parse into 4 sections:
 
