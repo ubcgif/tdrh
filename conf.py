@@ -56,7 +56,7 @@ source_suffix = '.rst'
 #source_encoding = 'utf-8-sig'
 
 # The master toctree document.
-master_doc = 'index'
+main_doc = 'index'
 
 # General information about the project.
 project = u'tdrh'
@@ -119,7 +119,7 @@ todo_include_todos = False
 # -- Edit on Github Extension ---------------------------------------------
 
 edit_on_github_project = 'ubcgif/tdrh'
-edit_on_github_branch = 'master'
+edit_on_github_branch = 'main'
 check_meta = False
 
 
@@ -246,7 +246,7 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-  (master_doc, 'tdrhManual.tex', u'tdrh Documentation',
+  (main_doc, 'tdrhManual.tex', u'tdrh Documentation',
    u'UBC-GIF', 'manual'),
 ]
 
@@ -276,7 +276,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'tdrhdoc', u'tdrh Documentation',
+    (main_doc, 'tdrhdoc', u'tdrh Documentation',
      [author], 1)
 ]
 
@@ -290,7 +290,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-  (master_doc, 'tdrhdoc', u'tdrh Documentation',
+  (main_doc, 'tdrhdoc', u'tdrh Documentation',
    author, 'tdrhdoc', 'One line description of project.',
    'Miscellaneous'),
 ]
